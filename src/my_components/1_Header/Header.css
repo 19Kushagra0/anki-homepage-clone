@@ -1,0 +1,152 @@
+.header {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 48px;
+  padding-top: 24px;
+
+  position: fixed;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  /* background-color: coral; */
+
+  justify-content: space-between;
+
+  width: 100%;
+  max-width: 986px;
+}
+.header-left {
+  display: flex;
+  flex-direction: row;
+
+  gap: 6px;
+  width: fit-content;
+
+  /* background-color: aqua; */
+
+  align-items: center;
+}
+.logo {
+  cursor: pointer;
+}
+
+.header-left span {
+  cursor: pointer;
+
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  font-family: var(--font-hanken), sans-serif;
+}
+.header-right {
+  display: flex;
+  flex-direction: row;
+  /* background-color: greenyellow; */
+
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+.header-button-container {
+  display: flex;
+  flex-direction: row;
+
+  /* background-color: blue; */
+
+  cursor: pointer;
+}
+.header-button {
+  padding: 15px 14px;
+
+  border-bottom: 3px solid transparent;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  letter-spacing: normal;
+  font-family: var(--font-hanken), sans-serif;
+}
+.header-button:hover {
+  border-bottom: 3px solid #5da9df;
+}
+.header-github-button {
+  background-color: black;
+
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  padding: 8px 12px;
+  padding-right: 24px;
+
+  cursor: pointer;
+}
+.github-icon {
+  width: 20px;
+  height: 20px;
+
+  fill: white;
+}
+.header-github-button:hover .github-icon {
+  fill: #5da9df;
+}
+.header-dowload-button {
+  /* background-color: #0073c5; */
+  background-color: #479ad6;
+  padding: 5px 20px;
+  border-radius: 20px;
+
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+
+  cursor: pointer;
+
+  color: black;
+
+  font-family: var(--font-hanken), sans-serif;
+}
+.header-dowload-button:hover {
+  background-color: #3c83b5;
+}
+.header-hamburger {
+  /* background-color: red; */
+
+  display: none;
+  flex-direction: row;
+
+  align-items: center;
+
+  cursor: pointer;
+}
+@media screen and (max-width: 850px) {
+  .header {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .header-right {
+    display: none;
+  }
+  .header-hamburger {
+    display: flex;
+  }
+}
+@media screen and (max-width: 770px) {
+  .header {
+    padding-top: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
