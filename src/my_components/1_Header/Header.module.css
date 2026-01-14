@@ -10,6 +10,8 @@
   padding-top: 24px;
 
   position: fixed;
+
+  /* background-color: red; */
 }
 
 .header-container {
@@ -101,8 +103,9 @@
 }
 .header-dowload-button {
   /* background-color: #0073c5; */
-  background-color: #479ad6;
-  padding: 5px 20px;
+  background-color: HSL(208, 65%, 52%);
+  /* background-color: #5da9df; */
+  padding: 7px 20px;
   border-radius: 20px;
 
   font-size: 16px;
@@ -117,7 +120,7 @@
   font-family: var(--font-hanken), sans-serif;
 }
 .header-dowload-button:hover {
-  background-color: #3c83b5;
+  background-color: #3a7aaf;
 }
 .header-hamburger {
   /* background-color: red; */
