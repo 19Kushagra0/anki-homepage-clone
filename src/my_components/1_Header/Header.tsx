@@ -1,10 +1,22 @@
 import React from "react";
 import styles from "./Header.module.css";
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export default function Header() {
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <div className={styles["header"]}>
+    <div className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       <div className={styles["header-container"]}>
         <div className={styles["header-left"]}>
           <div className={styles["logo"]}>
