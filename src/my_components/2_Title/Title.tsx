@@ -24,7 +24,10 @@ export default function Title() {
             </svg>
           </span>
         </div>
-        <h1>Remembering is easier with Anki</h1>
+        <h1>
+          Remembering is easier with{" "}
+          <span className="text-[#5DA9DF]">Anki</span>
+        </h1>
         <p>
           Anki is a flashcard program that helps you spend more time on
           challenging material, and less on what you already know.
