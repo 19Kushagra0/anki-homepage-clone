@@ -1,6 +1,6 @@
 .advantages {
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   /* background-color: rebeccapurple; */
 
   display: flex;
@@ -9,43 +9,6 @@
   margin-top: 96px;
 
   padding: 0px 48px;
-
-  font-size: 40px;
-  line-height: 54px;
-  font-weight: 600;
-  letter-spacing: -1px;
-  font-family: var(--font-hanken), sans-serif;
-}
-
-.advantages-title {
-  width: 100%;
-  /* background-color: red; */
-
-  display: flex;
-  flex-direction: row;
-
-  justify-content: center;
-
-}
-
-.advantages-description {
-  font-family: var(--font-hanken), sans-serif;
-  font-size: 20px;
-  line-height: 27px;
-  font-weight: 400;
-  letter-spacing: normal;
-
-  display: flex;
-  flex-direction: row;
-
-  justify-content: center;
-
-  /* background-color: blue; */
-
-  text-align: center;
-
-
-  margin-top: 12px;
 }
 
 .advantages-boxs-container {
@@ -74,7 +37,6 @@
   flex-wrap: wrap;
 
   margin-top: 96px;
-
 }
 
 .advantages-box {
@@ -89,7 +51,6 @@
   flex: 1;
 
   gap: 12px;
-
 }
 
 .advantages-box-icon-header {
@@ -132,7 +93,6 @@
   flex-direction: row;
   justify-content: start;
 
-
   /* background-color: violet; */
 }
 
@@ -158,7 +118,6 @@
 
   .advantages-box p {
     font-size: 16px;
-
   }
 
   .advantages-box {
@@ -178,6 +137,5 @@
   .advantages {
     padding-left: 24px;
     padding-right: 24px;
-
   }
 }
