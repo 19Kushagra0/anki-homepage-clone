@@ -4,8 +4,10 @@ import "@/my_components/3_Advantages/Advantages.css";
 export default function Advantages() {
   return (
     <div className="advantages">
-      <h2 className="advantages-title">Advantages</h2>
-      <p className="advantages-description">Here are a few reasons why users love Anki.</p>
+      <h2 className="anki-title">Advantages</h2>
+      <div className="anki-description-container">
+        <p className="anki-description">Here are a few reasons why users love Anki.</p>
+      </div>
       <div className="advantages-boxs-container">
         <div className="advantages-boxes">
           <div className="advantages-box">
