@@ -6,7 +6,9 @@ export default function Advantages() {
     <div className="advantages">
       <h2 className="anki-title">Advantages</h2>
       <div className="anki-description-container">
-        <p className="anki-description">Here are a few reasons why users love Anki.</p>
+        <p className="anki-description">
+          Here are a few reasons why users love Anki.
+        </p>
       </div>
       <div className="advantages-boxs-container">
         <div className="advantages-boxes">
@@ -28,8 +30,10 @@ export default function Advantages() {
               </svg>
               <h3>Synchronization</h3>
             </div>
-            <p>The free AnkiWeb synchronization service lets you sync your cards across devices.</p>
-
+            <p>
+              The free AnkiWeb synchronization service lets you sync your cards
+              across devices.
+            </p>
           </div>
           <div className="advantages-box">
             <div className="advantages-box-icon-header">
@@ -49,7 +53,10 @@ export default function Advantages() {
               </svg>
               <h3>Media Support</h3>
             </div>
-            <p>Audio, images, videos, and scientific markup can be used in your flashcards.</p>
+            <p>
+              Audio, images, videos, and scientific markup can be used in your
+              flashcards.
+            </p>
           </div>
           <div className="advantages-box">
             <div className="advantages-box-icon-header">
@@ -93,7 +100,10 @@ export default function Advantages() {
               </svg>
               <h3>Customization</h3>
             </div>
-            <p>Easily change your flashcard layouts and the timing of their reviews.</p>
+            <p>
+              Easily change your flashcard layouts and the timing of their
+              reviews.
+            </p>
           </div>
           <div className="advantages-box">
             <div className="advantages-box-icon-header">
@@ -116,7 +126,6 @@ export default function Advantages() {
             <p>Anki can handle decks of 100,000+ cards with no problems.</p>
           </div>
 
-
           <div className="advantages-box">
             <div className="advantages-box-icon-header">
               <svg
@@ -135,7 +144,10 @@ export default function Advantages() {
               </svg>
               <h3>Add-ons</h3>
             </div>
-            <p>Install add-ons to extend Anki with new features and functionality.</p>
+            <p>
+              Install add-ons to extend Anki with new features and
+              functionality.
+            </p>
           </div>
           <div className="advantages-box">
             <div className="advantages-box-icon-header">
@@ -143,7 +155,6 @@ export default function Advantages() {
               <h3></h3>
             </div>
             <p></p>
-
           </div>
         </div>
       </div>

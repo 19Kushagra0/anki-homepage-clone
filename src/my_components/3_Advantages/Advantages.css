@@ -9,10 +9,7 @@
   margin-top: 96px;
 
   padding: 0px 48px;
-
-
 }
-
 
 .advantages-boxs-container {
   width: 100%;
@@ -40,7 +37,6 @@
   flex-wrap: wrap;
 
   margin-top: 96px;
-
 }
 
 .advantages-box {
@@ -55,7 +51,6 @@
   flex: 1;
 
   gap: 12px;
-
 }
 
 .advantages-box-icon-header {
@@ -98,7 +93,6 @@
   flex-direction: row;
   justify-content: start;
 
-
   /* background-color: violet; */
 }
 
@@ -124,7 +118,6 @@
 
   .advantages-box p {
     font-size: 16px;
-
   }
 
   .advantages-box {
@@ -144,6 +137,5 @@
   .advantages {
     padding-left: 24px;
     padding-right: 24px;
-
   }
 }
