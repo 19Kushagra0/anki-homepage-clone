@@ -3,12 +3,16 @@
     margin-inline: auto;
 }
 
-.anki-description a {
+.anki-description span {
     color: #5DA9DF;
+
+
+    cursor: pointer;
 }
 
-.anki-description a:hover {
+.anki-description span:hover {
     color: #3B6889;
+
 
 }
 
