@@ -2,8 +2,15 @@ import React from "react";
 import styles from "./Header.module.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import Navbar from "@/ui/Navbar/Navbar";
+
 
 export default function Header() {
+  const [open, setOpen] = useState(false);
+  const toggleNavbar = () => {
+    setOpen(!open);
+  }
+
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -17,6 +24,7 @@ export default function Header() {
 
   return (
     <div className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
+      {open ? <Navbar showNavbar={toggleNavbar} /> : null}
       <div className={styles["header-container"]}>
         <div className={styles["header-left"]}>
           <div className={styles["logo"]}>
@@ -53,7 +61,11 @@ export default function Header() {
           <div className={styles["header-dowload-button"]}>Download Anki</div>
         </div>
 
-        <div className={styles["header-hamburger"]}>
+        <div
+          onClick={() => {
+            setOpen(true)
+          }}
+          className={styles["header-hamburger"]}>
           <Image
             alt="hamberger-icon"
             width={20}
