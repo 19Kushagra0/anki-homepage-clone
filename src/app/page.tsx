@@ -5,6 +5,7 @@ import Title from "@/my_components/2_Title/Title";
 import Advantages from "@/my_components/3_Advantages/Advantages";
 import Testimonials from "@/my_components/4_Testimonials/Testimonials";
 import Concepts from "@/my_components/5_Concepts/Concepts";
+import Contributing from "@/my_components/6_Contributing/Contributing";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Advantages />
       <Testimonials />
       <Concepts />
+      <Contributing />
     </div>
   );
 }
