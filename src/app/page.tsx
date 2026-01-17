@@ -7,6 +7,7 @@ import Testimonials from "@/my_components/4_Testimonials/Testimonials";
 import Concepts from "@/my_components/5_Concepts/Concepts";
 import Contributing from "@/my_components/6_Contributing/Contributing";
 import Downloads from "@/my_components/7_Downloads/Downloads";
+import Footer from "@/my_components/8_Footer/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Concepts />
       <Contributing />
       <Downloads />
+      <Footer />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import "./Contributing.css";
 export default function Contributing() {
   return (
     <div className="contributing">
-      <h2 className="anki-title">contributing</h2>
+      <h2 className="anki-title">Contributing</h2>
       <div className="anki-description-container">
         <p className="anki-description">
           Anki is a community project where anyone can make contributions to
