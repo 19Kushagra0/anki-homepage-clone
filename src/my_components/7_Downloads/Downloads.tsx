@@ -10,7 +10,8 @@ export default function Downloads() {
             <div className="anki-description-container">
                 <p className="anki-description">
                     Choose the correct download for your platform. For details, see the
-                    {" "}<a href=""> installation guide</a>.
+                    {" "}
+                    <span>installation guide</span>.
                 </p>
             </div>
             <div className="desktop-download-container">
