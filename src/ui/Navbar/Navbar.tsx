@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Navbar.css'
 
 interface NavbarProps {
@@ -6,6 +6,16 @@ interface NavbarProps {
 }
 
 export default function Navbar({ showNavbar }: NavbarProps) {
+    useEffect(() => {
+        // Block scroll when component mounts
+        document.body.style.overflow = 'hidden';
+
+        // Re-enable scroll when component unmounts
+        return () => {
+            document.body.style.overflow = 'unset';
+        };
+    }, []);
+
     return (
         <div className='navbar'>
             <div className="">
